@@ -1,4 +1,4 @@
-package com.mrclrchtr.android.example.bar
+package com.mrclrchtr.android.example.baz
 
 import android.app.Fragment
 import android.content.Context
@@ -16,14 +16,14 @@ import com.mrclrchtr.android.example.util.OnFragmentInteractionListener
  * [OnFragmentInteractionListener] interface
  * to handle interaction events.
  */
-class BarFragment : Fragment() {
+class Plan : Fragment() {
 
     private var mListener: OnFragmentInteractionListener? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bar, container, false)
+        return inflater.inflate(R.layout.fragment_baz, container, false)
     }
 
     fun onButtonPressed(uri: Uri) {
@@ -47,6 +47,6 @@ class BarFragment : Fragment() {
     }
 
     companion object {
-        val TAG: String = "BarFragment"
+        val TAG = "Plan"
     }
-}
+}// Required empty public constructor
