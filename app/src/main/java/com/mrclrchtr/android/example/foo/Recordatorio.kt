@@ -16,7 +16,7 @@ import com.mrclrchtr.android.example.util.OnFragmentInteractionListener
  * [OnFragmentInteractionListener] interface
  * to handle interaction events.
  */
-class FooFragment : Fragment() {
+class Recordatorio : Fragment() {
 
     private var mListener: OnFragmentInteractionListener? = null
 
@@ -47,6 +47,6 @@ class FooFragment : Fragment() {
     }
 
     companion object {
-        val TAG = "FooFragment"
+        val TAG = "Recordatorio"
     }
 }

@@ -17,7 +17,7 @@ import com.mrclrchtr.android.example.util.OnFragmentInteractionListener
  * to handle interaction events.
  * Nuevo comentario
  */
-class FooBarFragment : Fragment() {
+class Biblioteca : Fragment() {
 
     private var mListener: OnFragmentInteractionListener? = null
 
@@ -48,6 +48,6 @@ class FooBarFragment : Fragment() {
     }
 
     companion object {
-        val TAG = "FooBarFragment"
+        val TAG = "Biblioteca"
     }
 }
