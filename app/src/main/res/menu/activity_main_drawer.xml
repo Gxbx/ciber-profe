@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_top_foo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/top_to_foo" />
+        <item
+            android:id="@+id/nav_top_bar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/top_to_bar" />
+        <item
+            android:id="@+id/nav_bottom_foo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/bottom_to_foo" />
+        <item
+            android:id="@+id/nav_bottom_bar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/bottom_to_bar" />
+    </group>
+
+</menu>
