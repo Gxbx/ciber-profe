@@ -10,7 +10,7 @@
     <string name="hello_foo_fragment">Hello foo fragment</string>
     <string name="hello_bar_fragment">Hello bar fragment</string>
     <string name="hello_baz_fragment">Hello baz fragment</string>
-    <string name="hello_foo_bar_fragment">Hello foo bar fragment</string>
+    <string name="hello_foo_bar_fragment">Hola soy Gabriel</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="top_to_foo"><![CDATA[Top -> Foo]]></string>
