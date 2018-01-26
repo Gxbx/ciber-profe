@@ -65,10 +65,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 fragmentManager.beginTransaction().add(R.id.frame_layout_main_top, Plan()).commit()
             }
             R.id.Recorda -> {
-                fragmentManager.beginTransaction().add(R.id.frame_layout_main_bottom, Recordatorio()).commit()
+                fragmentManager.beginTransaction().add(R.id.frame_layout_main_top, Recordatorio()).commit()
             }
             R.id.Biblio-> {
-                fragmentManager.beginTransaction().add(R.id.frame_layout_main_bottom, Biblioteca()).commit()
+                fragmentManager.beginTransaction().add(R.id.frame_layout_main_top, Biblioteca()).commit()
             }
         }
 
