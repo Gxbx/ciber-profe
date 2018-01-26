@@ -12,6 +12,7 @@ import com.mrclrchtr.android.example.preferencias.Preferencias
 import com.mrclrchtr.android.example.plan.Plan
 import com.mrclrchtr.android.example.recordatorio.Recordatorio
 import com.mrclrchtr.android.example.biblioteca.Biblioteca
+import com.mrclrchtr.android.example.inicio.Inicio
 import com.mrclrchtr.android.example.util.OnFragmentInteractionListener
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.toolbar_main.*
@@ -70,6 +71,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.Biblio-> {
                 fragmentManager.beginTransaction().add(R.id.frame_layout_main_top, Biblioteca()).commit()
             }
+            R.id.Ini-> {
+                fragmentManager.beginTransaction().add(R.id.frame_layout_main_top, Inicio()).commit()
+            }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
@@ -82,6 +86,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             Recordatorio.TAG -> Log.i(this.TAG, "onFragmentInteraction with Recordatorio")
             Plan.TAG -> Log.i(this.TAG, "onFragmentInteraction with Plan")
             Biblioteca.TAG -> Log.i(this.TAG, "onFragmentInteraction with Biblioteca")
+            Inicio.TAG -> Log.i(this.TAG, "onFragmentInteraction with Inicio")
         }
     }
 }

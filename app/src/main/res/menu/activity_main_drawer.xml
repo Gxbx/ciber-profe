@@ -6,6 +6,10 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/Ini"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
             android:id="@+id/preferencias"
             android:icon="@drawable/ic_person_black_24dp"
             android:title="Mis preferencias de estudio" />
