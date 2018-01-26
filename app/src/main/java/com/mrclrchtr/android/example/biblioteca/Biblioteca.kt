@@ -1,4 +1,4 @@
-package com.mrclrchtr.android.example.bar
+package com.mrclrchtr.android.example.biblioteca
 
 import android.app.Fragment
 import android.content.Context
@@ -15,15 +15,16 @@ import com.mrclrchtr.android.example.util.OnFragmentInteractionListener
  * Activities that contain this fragment must implement the
  * [OnFragmentInteractionListener] interface
  * to handle interaction events.
+ * Nuevo comentario
  */
-class Preferencias : Fragment() {
+class Biblioteca : Fragment() {
 
     private var mListener: OnFragmentInteractionListener? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bar, container, false)
+        return inflater.inflate(R.layout.fragment_foo_bar, container, false)
     }
 
     fun onButtonPressed(uri: Uri) {
@@ -47,6 +48,6 @@ class Preferencias : Fragment() {
     }
 
     companion object {
-        val TAG: String = "Preferencias"
+        val TAG = "Biblioteca"
     }
 }

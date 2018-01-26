@@ -1,4 +1,4 @@
-package com.mrclrchtr.android.example.baz
+package com.mrclrchtr.android.example.plan
 
 import android.app.Fragment
 import android.content.Context

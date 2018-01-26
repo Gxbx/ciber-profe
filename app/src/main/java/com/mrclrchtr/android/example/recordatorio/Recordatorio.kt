@@ -1,4 +1,4 @@
-package com.mrclrchtr.android.example.foo
+package com.mrclrchtr.android.example.recordatorio
 
 import android.app.Fragment
 import android.content.Context
