@@ -1,4 +1,4 @@
-package com.mrclrchtr.android.example.foobar
+package com.mrclrchtr.android.example.biblioteca
 
 import android.app.Fragment
 import android.content.Context
@@ -15,8 +15,9 @@ import com.mrclrchtr.android.example.util.OnFragmentInteractionListener
  * Activities that contain this fragment must implement the
  * [OnFragmentInteractionListener] interface
  * to handle interaction events.
+ * Nuevo comentario
  */
-class FooBarFragment : Fragment() {
+class Biblioteca : Fragment() {
 
     private var mListener: OnFragmentInteractionListener? = null
 
@@ -47,6 +48,6 @@ class FooBarFragment : Fragment() {
     }
 
     companion object {
-        val TAG = "FooBarFragment"
+        val TAG = "Biblioteca"
     }
 }

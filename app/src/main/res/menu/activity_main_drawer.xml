@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_top_foo"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/top_to_foo" />
+            android:id="@+id/Ini"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
         <item
-            android:id="@+id/nav_top_bar"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/top_to_bar" />
+            android:id="@+id/preferencias"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Mis preferencias de estudio" />
         <item
-            android:id="@+id/nav_bottom_foo"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/bottom_to_foo" />
+            android:id="@+id/Plan"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Mi plan de estudio" />
         <item
-            android:id="@+id/nav_bottom_bar"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/bottom_to_bar" />
+            android:id="@+id/Recorda"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="Recordatorio" />
+        <item
+            android:id="@+id/Biblio"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Biblioteca" />
+        <item
+            android:title="Configuracion"
+            android:icon="@drawable/ic_build_black_24dp"
+            />
+
+        <item
+            android:title="Enviar sugerencias"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            />
+        <item
+            android:title="Ayuda"
+            android:icon="@drawable/ic_help_black_24dp"
+            />
     </group>
 
 </menu>
