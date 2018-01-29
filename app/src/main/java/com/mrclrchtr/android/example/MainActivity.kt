@@ -41,9 +41,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val fooFragment = Recordatorio()
         fragmentTransaction.add(R.id.frame_layout_main_top, fooFragment)
 
-
-
-
         fragmentTransaction.commit()
 
     }

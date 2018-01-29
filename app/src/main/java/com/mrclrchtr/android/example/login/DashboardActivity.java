@@ -23,16 +23,16 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-
+        //Obtener recursos
         LogOut = (Button)findViewById(R.id.button);
         EmailShow = (TextView)findViewById(R.id.EmailShow);
 
-
+        //Mostrar E-mail
         Intent intent = getIntent();
         EmailHolder = intent.getStringExtra(UserLoginActivity.UserEmail);
         EmailShow.setText(EmailHolder);
 
-
+        //Boton salir
         LogOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
