@@ -25,6 +25,9 @@
             android:id="@+id/Biblio"
             android:icon="@drawable/ic_account_balance_black_24dp"
             android:title="Biblioteca" />
+    </group>
+    <item android:title="Herramientas">
+        <menu>
         <item
             android:title="Configuracion"
             android:icon="@drawable/ic_build_black_24dp"
@@ -38,6 +41,9 @@
             android:title="Ayuda"
             android:icon="@drawable/ic_help_black_24dp"
             />
-    </group>
-
+        </menu>
+    </item>
 </menu>
+
+
+
