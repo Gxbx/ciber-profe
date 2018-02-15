@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android Kotlin Fragment Navigation Drawer</string>
+    <string name="app_name">Ciber Profe</string>
     <string name="title_activity_main">MainActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -14,7 +14,7 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="top_to_foo"><![CDATA[Top -> Foo]]></string>
-    <string name="top_to_bar"><![CDATA[Top -> Bar]]></string>
-    <string name="bottom_to_foo"><![CDATA[Bottom -> Foo]]></string>
-    <string name="bottom_to_bar"><![CDATA[Bottom -> Bar]]></string>
+    <string name="Plan"><![CDATA[Top -> Bar]]></string>
+    <string name="Recordatorio"><![CDATA[Bottom -> Foo]]></string>
+    <string name="Biblioteca"><![CDATA[Bottom -> Bar]]></string>
 </resources>
