@@ -5,5 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.mrclrchtr.android.example.asesor.tutor_virtual">
+    
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/string_name"
+        android:layout_alignRight="@+id/center_line"
+        android:id="@+id/slider_linear"
+        android:weightSum="50"
+        android:orientation="vertical"
+        tools:ignore="UnknownId">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="50"
+            android:id="@+id/slider">
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>
