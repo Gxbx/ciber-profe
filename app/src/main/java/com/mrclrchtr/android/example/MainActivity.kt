@@ -1,8 +1,11 @@
 package com.mrclrchtr.android.example
 
+import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
+import android.support.annotation.RequiresApi
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
@@ -14,6 +17,7 @@ import com.mrclrchtr.android.example.plan.Plan
 import com.mrclrchtr.android.example.recordatorio.Recordatorio
 import com.mrclrchtr.android.example.biblioteca.Biblioteca
 import com.mrclrchtr.android.example.inicio.Inicio
+
 import com.mrclrchtr.android.example.util.OnFragmentInteractionListener
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.toolbar_main.*
@@ -22,6 +26,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     val TAG = "MainActivity"
 
+    @RequiresApi(Build.VERSION_CODES.HONEYCOMB)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -56,6 +61,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
     }
 
+    @SuppressLint("NewApi")
+    @RequiresApi(Build.VERSION_CODES.HONEYCOMB)
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
@@ -68,12 +75,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.Recorda -> {
                 fragmentManager.beginTransaction().add(R.id.frame_layout_main_top, Recordatorio()).commit()
             }
-            R.id.Biblio-> {
+            R.id.Biblio -> {
                 fragmentManager.beginTransaction().add(R.id.frame_layout_main_top, Biblioteca()).commit()
             }
-            R.id.Ini-> {
+            R.id.Ini -> {
                 fragmentManager.beginTransaction().add(R.id.frame_layout_main_top, Inicio()).commit()
             }
+
+
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)

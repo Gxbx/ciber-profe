@@ -15,5 +15,12 @@
     <color name="colorYellow">#FFFF00</color>
     <color name="colorPink">#FF00FF</color>
     <color name="colorCyan">#00FFFF</color>
+
+    <color name="colorNoTune">#E0E4CC</color>
+    <color name="colorNearTune">#A7DBD8</color>
+    <color name="colorInTune">#69D2E7</color>
+    <color name="colorVeryOffTune">#FA6900</color>
+    <color name="colorOffTune">#F38630</color>
+
 </resources>
 

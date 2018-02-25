@@ -17,4 +17,5 @@
     <string name="Plan"><![CDATA[Top -> Bar]]></string>
     <string name="Recordatorio"><![CDATA[Bottom -> Foo]]></string>
     <string name="Biblioteca"><![CDATA[Bottom -> Bar]]></string>
+
 </resources>
